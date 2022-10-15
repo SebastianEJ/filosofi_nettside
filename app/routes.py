@@ -1,8 +1,5 @@
-from flask import render_template, flash, redirect, url_for, request, abort
-from werkzeug.utils import secure_filename
-from werkzeug.urls import url_parse
+from flask import render_template
 from app import app
-import os
 
 @app.route("/")
 @app.route("/home")
