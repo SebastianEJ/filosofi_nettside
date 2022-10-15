@@ -4,8 +4,8 @@ from werkzeug.urls import url_parse
 from app import app
 import os
 
-@app.route("/", methods=['GET', 'POST'])
-@app.route("/home", methods=['GET', 'POST'])
+@app.route("/")
+@app.route("/home")
 def home():
     return render_template('home.html',title="Home")
 
