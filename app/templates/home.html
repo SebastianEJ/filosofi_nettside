@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h3>Filosofi-historie fra antikken til 1800-tallet</h3> <br>
+  <div class="content">
+    <div class="content_item">
+      <p><a href="{{url_for('pre_sokrates')}}" class="links">Før sokratikerne</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('sokrates')}}" class="links">Sokrates</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('platon')}}" class="links">Platon</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('aristoteles')}}" class="links">Aristoteles</a></p>
+    </div>
+  </div> <br>
+  <h3>ExPhil</h3> <br>
+  <div class="content">
+    <div class="content_item">
+      <p><a href="{{url_for('tenk_selv')}}" class="links">Kap. 1: Tenk Selv!</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('vitenskapelig_metode')}}" class="links">Kap. 2: Vitenskapelig metode, epirisme og solflekker</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('laeringsteori')}}" class="links">Kap. 3: Hvordan skiller vi vitenskap fra pseudovitenskap</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('kunnskapsresistens')}}" class="links">Kap. 4: Kunnskapsresistens</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('bullshit')}}" class="links">Kap. 5: Bullshit, politikk og uvitenhet</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('folelser_hinder_for_kunnskap')}}" class="links">Kap. 6: Er følelser et hinder for kunnskap?</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('virkeligheten')}}" class="links">Kap. 7: Virkeligheten - Hvordan den ser ut og hvordan den er</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('fire_arsaker')}}" class="links">Kap. 8: Hvorfor? å forklare verden med fire årsaker</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('sinnet_i_naturen')}}" class="links">Kap. 9: Hva er sinnets plass i naturen?</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('rom_og_geometri')}}" class="links">Kap. 10: Rom og geometri. Hva kan vi vite uten erfaring?</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('evolusjon')}}" class="links">Kap. 11: Evolusjon: Er vi overlevelsesmaskiner skapt av genene våre?</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('bio_og_sosi_kjonn')}}" class="links">Kap. 12: Biologisk og sosialt kjønn, og den sosiale konstruksjonen av virkeligheten</a></p>
+    </div>
+  </div><br>
+  <h3>Metafysikk</h3> <br>
+  <div class="content">
+    <div class="content_item">
+      <p><a href="{{url_for('hvorfor_noe')}}" class="links">Hvorfor er det noe?</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('gud')}}" class="links">Er det en gud?</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('vaere')}}" class="links">Hva er det å være</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('realisme_idealisme')}}" class="links">Finnes det noe uavhengig av bevisstheten? Realisme og idealisme</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('allmenn_enkel')}}" class="links">Allmenbegreper og enkeltting</a></p>
+    </div>
+    <div class="content_item">
+      <p><a href="{{url_for('arsaker')}}" class="links">Årsaksbegrepet</a></p>
+    </div>
+  </div>
+{% endblock %}

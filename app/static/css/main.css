@@ -1,0 +1,28 @@
+body{
+  background-color: #ffffd2;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  top: 5%;
+  align-content: flex-start;
+  gap: 10px 10px;
+}
+.content_item {
+  margin: 0.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(135,206,235);
+  border-radius: 15px;
+  border-color: rgb(41,44,51);
+  border: 0.5px solid;
+
+}
+.links {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+     <link href="{{ url_for('static', filename='css/main.css') }}" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    {% if title == "Home" %}
+    <h1 style="text-align:center;">her er de ulike temaene jeg har hatt i filosofi forklart slik at du kan finne noe hvis du lurer på hva det er</h1>
+    {% endif %}
+    {% block content%} {% endblock %}
+  </body>
+</html>
